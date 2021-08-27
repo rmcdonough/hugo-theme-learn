@@ -1,4 +1,4 @@
-  <script>
+<script>
     (function (n, i, a, v, r, s, c, x, z) {
         x = window.AwsNexusTelemetry = { q: [], n, i, a, v, r, c };
         window[n] = function (c, p) {
@@ -19,6 +19,7 @@
         'us-west-2',
         'https://d1ktxyteejjrbw.cloudfront.net/assets/rum-javascript-telemetry.js',
         {
+            allowCookies: true,
             identityPoolId: 'us-west-2:ebff80b1-3ec3-4bd7-a44b-e4a1eed83201',
             guestRoleArn: 'arn:aws:iam::913180151358:role/Nexus-Monitor-us-west-2-913180151358-0929430379261-Unauth',
             endpoint: 'https://dataplane.us-west-2.prod.rum.aws.dev',
